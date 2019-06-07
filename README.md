@@ -1,2 +1,2 @@
-# ilang
-Infinity Lang - Functional Computer Speak
+# Infinity Lang
+> Functional Computer Speak
