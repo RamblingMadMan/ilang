@@ -6,6 +6,6 @@ Here are links to repositories containing the individual components of the Infin
 
 [Infinity Lang Type System](https://github.com/RamblingMadMan/ilang-types)  
 [Infinity Lang Lexer](https://github.com/RamblingMadMan/ilang-lexer)  
-[Infinity Lang Parser](https://github.com/RamblingMadMan/ilang-parser)
-[Infinity Lang Evaluator](https://github.com/RamblingMadMan/ilang-eval)
-[Infinity Lang REPL](https://github.com/RamblingMadMan/ilang-repl)
+[Infinity Lang Parser](https://github.com/RamblingMadMan/ilang-parser)  
+[Infinity Lang Evaluator](https://github.com/RamblingMadMan/ilang-eval)  
+[Infinity Lang REPL](https://github.com/RamblingMadMan/ilang-repl)  
