@@ -31,7 +31,7 @@ main() =
     let input = IO.inln ()
     let nums = split input " "
     
-    if (length num) != 2 then
+    if (length nums) != 2 then
         IO.outln "Invalid input"
         main ()
     else
