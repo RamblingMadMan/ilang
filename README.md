@@ -9,3 +9,12 @@ Here are links to repositories containing the individual components of the Infin
 [Infinity Lang Parser](https://github.com/RamblingMadMan/ilang-parser)  
 [Infinity Lang Evaluator](https://github.com/RamblingMadMan/ilang-eval)  
 [Infinity Lang REPL](https://github.com/RamblingMadMan/ilang-repl)  
+
+## (Not Necessarily Working) Eample
+
+### Hello World
+```javascript
+let IO = import "IO"
+
+main() = IO.outln "Hello, World!"
+```
