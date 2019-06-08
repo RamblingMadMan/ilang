@@ -26,7 +26,7 @@ let Parse = import "Parse"
 
 calc(a, b) = Parse.real(a) + Parse.real(b)
 
-main() = do
+main() =
     IO.out "Enter 2 numbers separated by a space: "
     let input = IO.inln ()
     let nums = split input " "
