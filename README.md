@@ -25,7 +25,7 @@ let IO = import "IO"
 let Fmt = import "Fmt"
 let Parse = import "Parse"
 
-calc(a, b) = Parse.real(a) + Parse.real(b)
+calc(a, b) = (Parse.real a) + (Parse.real b)
 
 main() =
     IO.out "Enter 2 numbers separated by a space: "
