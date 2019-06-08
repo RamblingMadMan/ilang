@@ -15,13 +15,14 @@ Here are links to repositories containing the individual components of the Infin
 ### Hello World
 ```javascript
 let IO = import "IO"
-let Fmt = import "Fmt"
 
 main() = IO.outln "Hello, World!"
 ```
 
 ### Dumb Adder
 ```javascript
+let IO = import "IO"
+let Fmt = import "Fmt"
 let Parse = import "Parse"
 
 calc(a, b) = Parse.real(a) + Parse.real(b)
