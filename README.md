@@ -18,23 +18,29 @@ let IO = import "IO"
 main() = IO.outln "Hello, World!"
 ```
 
-### Dumb Adder
+### Simple BinOp Calculator
 ```javascript
 let IO = import "IO"
 let Fmt = import "Fmt"
 let Parse = import "Parse"
 
-calc(a, b) = (Parse.real a) + (Parse.real b)
+calcInner('+', a, b) = a + b
+calcInner('-', a, b) = a - b
+calcInner('*', a, b) = a * b
+calcInner('/', a, b) = a / b
+calcInner('^', a, b) = a ^ b
+
+calc(op, a, b) = calcInner op (Parse.real a) (Parse.real b)
 
 main() =
-    IO.out "Enter 2 numbers separated by a space: "
+    IO.out "Enter an op and 2 numbers (separated by spaces): "
     let input = IO.inln ()
-    let nums = split input " "
+    let ins = split input " "
     
-    if (length nums) != 2 then
+    if (length ins) != 3 then
         IO.outln "Invalid input"
         main ()
     else
-        let res = calc nums[0] nums[1]
-        IO.outln (Fmt.fmt "{} + {} = {}" nums[0] nums[1] res)
+        let res = calc ins[0] ins[1] ins[2]
+        IO.outln (Fmt.fmt "{} + {} = {}" ins[0] ins[1] res)
 ```
