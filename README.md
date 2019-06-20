@@ -1,6 +1,8 @@
 # Infinity Lang
 > Functional Computer Speak
 
+The Infinity language is designed to have the low runtime cost of a static low-level language like C++ but also the fast development rate of a dynamic high-level language like Python or Javascript.
+
 ## Components
 Here are links to repositories containing the individual components of the Infinity language system.
 
